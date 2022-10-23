@@ -3,7 +3,6 @@ import { cartIcon, cartMenu, clsMenuBtn, openCart } from './cartFunctionality.js
 import { setupStore, store } from './store.js';
 import { catArr, storeCopy, createFilterButtons, setupSearch, displayMaxPrice } from './filter.js';
 export { allProductsContainer };
-import { addToCart, cartFunctionality, init } from './setupCart.js';
 
 // addToCart()
 // cartFunctionality()
