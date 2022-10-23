@@ -594,7 +594,7 @@ img {
 
 .background-container {
     height: 100vh;
-    background: url("public/IMGS/drip.jpeg") no-repeat center / cover;
+    background: url("/public/IMGS/drip.jpeg") no-repeat center / cover;
 }
 
 
