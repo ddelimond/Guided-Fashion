@@ -4,9 +4,6 @@ import { setupStore, store } from './store.js';
 import { catArr, storeCopy, createFilterButtons, setupSearch, displayMaxPrice } from './filter.js';
 export { allProductsContainer };
 
-// addToCart()
-// cartFunctionality()
-// init()
 
 
 // All Products Container
@@ -48,7 +45,7 @@ filterBtnContainer.addEventListener('click', function (e) {
 
 
 
-const init = async () => {
+const initialize = async () => {
     if (store.length < 1) {
 
         const products = await getProducts();
@@ -65,6 +62,7 @@ const init = async () => {
     loading.style.display = 'none';
     setupSearch(storeCopy);
 }
-init()
+
+initialize();
 
 
